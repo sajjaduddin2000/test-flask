@@ -7,7 +7,7 @@ app = FastAPI()
 # Allow frontend requests
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Change to your frontend URL for security
+    allow_origins=["https://muzzstorage.z9.web.core.windows.net"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
