@@ -8,7 +8,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_origins=["https://muzzstorage.z9.web.core.windows.net"], 
+    allow_origins=["https://imggallery01.blob.core.windows.net/$web/index.html"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
